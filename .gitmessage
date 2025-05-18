@@ -1,0 +1,44 @@
+
+
+# <type>(<scope>): <short summary>
+# |<---- Using a maximum of 50 characters ---->|
+
+
+# <body>
+# |<---- Using a maximum of 72 characters per line ---->|
+
+
+# <footer>
+
+
+# Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+# Scopes: component, hook, context, redux, router, api, auth, ui, style, i18n, a11y, deps
+# 
+# Example commit messages:
+# feat(component): add user profile dropdown menu
+# fix(auth): resolve token refresh issue on session timeout
+# refactor(hook): simplify useLocalStorage implementation
+# fix(api): resolve authentication token refresh issue
+# style(ui): update button styling to match design system
+# perf(redux): optimize state selectors
+# test(component): add unit tests for dropdown menu
+# docs: update README with setup instructions
+# chore(deps): update React to v18.2.0
+# build: configure webpack for production optimization
+# ci: set up GitHub Actions workflow
+#
+# Breaking changes should include an exclamation mark:
+# feat(api)!: change authentication API response format
+#
+# Include issue references in the footer:
+# Ref #123
+# Related #123
+#
+# Closes #123
+# Fixes #123
+# Resolve #123
+#
+# Remember:
+# - Use imperative, present tense (add, not added or adds)
+# - Don't capitalize the first letter
+# - No period at the end
