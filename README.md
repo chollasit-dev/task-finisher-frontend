@@ -1,12 +1,54 @@
-# React + Vite
+# Task Finisher Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end part of Task Finisher, a complete CRUD TODO app featuring minimal,
+clean, easy-to-use interface.
 
-Currently, two official plugins are available:
+The purpose of this app is primarily for personal uses (may available for few
+users testing) to streamline my task managing and note taking. This project is a
+part of my JavaScript/TypeScript learning journey for both front-end and
+back-end development in JSD9 bootcamp program.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (Latest LTS version recommended)
+- [pnpm](https://pnpm.io/)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```sh
+git clone https://github.com/chollasit-dev/task-finisher-frontend.git &&
+cd task-finisher-frontend &&
+pnpm install
+```
+
+### Environment Setup
+
+1. Copy the example environment file:
+
+```sh
+cp .env.example .env
+```
+
+3. Modify configuration placeholder with your actual values.
+
+### Start the development server
+
+Will restart on file changes:
+
+```sh
+pnpm dev
+```
+
+## Run the testing server
+
+Build the app first, then preview the bundled app:
+
+```sh
+pnpm build && pnpm preview
+```
